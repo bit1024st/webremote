@@ -10,7 +10,7 @@
 </head>
 <body>
 	<%
-	//123
+	//123456
 		String name = request.getParameter("uname");
 		String pwd = request.getParameter("upwd");
 		Login loginInfo = new Login(name,pwd);
